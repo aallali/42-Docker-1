@@ -1,0 +1,6 @@
+docker run --name Abathur -v ~/Desktop/Home/:/root -p 3000:3000 -it python:2-slim bash
+apt-get update
+apt-get upgrade -y
+pip install flask
+export FLASK_APP=./root/app.py
+flask run --host 0.0.0.0 -p 3000

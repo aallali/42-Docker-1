@@ -1,0 +1,1 @@
+docker service create --name orbital-command -e RABBITMQ_DEFAULT_USER=allaliDock -e RABBITMQ_DEFAULT_PASS=allaliPass --network overmind rabbitmq
